@@ -137,7 +137,7 @@
     // const customSource = CY.createSource.fromVideoUrl(arr[0]);
     // const customSource = CY.createSource.fromVideoElement(document.getElementById("videoId"));
     CY.loader()
-      .licenseKey("7e3e816809075f04d24f2ab6da3a1eeb989e7cdea231")
+      .licenseKey("d431fe881ce4eaf386f191cb07d07635ce32e2425db8")
       // .source(customSource)
       // .source(customSource)
       .addModule(CY.modules().FACE_AGE.name)
@@ -148,7 +148,7 @@
       .load()
       .then(({ start, stop }) => {
         start();
-        setTimeout(stop, 5000 );
+       // setTimeout(stop, 5000);
       });
 
     const canvas = document.createElement("canvas");
